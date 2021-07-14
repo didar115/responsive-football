@@ -206,12 +206,17 @@ p {
 
 article {
 	margin-bottom: 25px;
+	
+}
+.article-play-info{
+	text-align: justify;
 }
 .img-banner:hover .img-body a {
 	margin-left: 15px;
 }
 .image-banner-text {
 	margin-left: 15px;
+	
 }
 /* about-section------------------------------------ */
 .about-section {
