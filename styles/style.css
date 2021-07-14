@@ -6,7 +6,7 @@ body {
 	font-family: "Poppins", sans-serif;
 	margin: 0;
 	padding: 0;
-	background-color: #f3f1ff;
+	background-color: white;
 	/* box-sizing: border-box; */
 }
 
@@ -78,6 +78,10 @@ height: 428px; */
 	color: #fff;
 	padding: 10px 24px;
 	background: #e02c6d;
+}
+.block{
+	display: block;
+	text-align: center;
 }
 /* link and button same color -----------------end------------------------------ */
 
@@ -165,7 +169,6 @@ main {
 	display: flex;
 	justify-content: center;
 	overflow: hidden;
-	/* flex-wrap: wrap; */
 	position: relative;
 }
 .img-haed {
@@ -198,19 +201,24 @@ main {
 	align-items: center;
 }
 .img-banner:hover .img-body h3,
-article,
 p {
 	padding: 15px;
 	/* color: white; */
 }
+article {
+	margin-bottom: 25px;
+}
 .img-banner:hover .img-body a {
+	margin-left: 15px;
+}
+.image-banner-text {
 	margin-left: 15px;
 }
 /* about-section------------------------------------ */
 .about-section {
 	display: flex;
-	/* justify-content: space-between; */
 	align-items: center;
+	margin-left: 25px;
 	width: 100%;
 	margin-top: 100px;
 }
@@ -224,7 +232,7 @@ input {
 	border: none;
 	width: 70%;
 	border-bottom: 2px solid gray;
-	background-color: #f3f1ff;
+	background-color: white;
 }
 input:focus {
 	outline: none;
@@ -237,7 +245,6 @@ textarea {
 	border: none;
 	border-top: 2px solid gray;
 	border-bottom: 2px solid gray;
-	background-color: #f3f1ff;
 	margin-left: 10px;
 	width: 80%;
 }
@@ -337,6 +344,7 @@ footer img {
 		/* display: flex;
         flex-direction: column; */
 	}
+
 	.left p {
 		/* width: 278px;
 height: 138px; */
@@ -345,6 +353,7 @@ height: 138px; */
 		/* width: 168px;
 height: 44px; */
 	}
+
 	.right {
 		display: flex;
 		justify-content: center;
@@ -401,14 +410,7 @@ height: 44px; */
 		justify-content: center;
 		align-items: center;
 	}
-	/* .foot-part img{
-    width: 220px;
-    height: 63px;
-   }
-   .footer-icon{
-    width: 178px;
-    height: 63px;
-   } */
+
 }
 
 /* tablet-----------------------view */
@@ -475,6 +477,10 @@ height: 44px; */
 		height: 248px;
 		align-items: center;
 	}
+
+	#copa-america {
+		margin-left: 15px;
+	}
 	.play-info {
 		width: 329px;
 		height: 299px;
@@ -489,12 +495,4 @@ height: 44px; */
 		justify-content: center;
 		align-items: center;
 	}
-	/* .foot-part img{
-    width: 220px;
-    height: 63px;
-   }
-   .footer-icon{
-    width: 178px;
-    height: 63px;
-   } */
 }
